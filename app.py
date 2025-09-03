@@ -16,6 +16,7 @@ def calcul(a, b):
 
 @app.route("/date_heure")
 def heure():
+    """Cette route affiche l'heure actuelle"""
     date = datetime.datetime.now()
     heure = date.hour
     minute = date.minute
