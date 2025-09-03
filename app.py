@@ -3,7 +3,7 @@ import datetime
 
 app = Flask(__name__)
 
-@app.route("/")
+@app.route("/prenom")
 def bonjour():
     """Cette route accueille l'utilisateur"""
     prenom = "Ndeye"
@@ -22,6 +22,11 @@ def heure():
     minute = date.minute
     seconde = date.second
     return render_template("date_heure.html", heure=heure, minute=minute, seconde=seconde)
+
+@app.route("/menu")
+def menu():
+    """Menu principal"""
+    return render_template("menu_principal.html")
 
 # Point d'entrée du programme.
 
