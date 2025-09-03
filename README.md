@@ -38,6 +38,6 @@ Projet créé dans le cadre de mon apprentissage du développement web avec Flas
 - Exemples concrets d'utilisation
 - Professionnel mais accessible
 
-## Note :
+## Note mise à jour:
 
-Des templates HTML sont prévus pour la suite ! 🚀
+Les templates HTML ont été ajoutés ainsi que de nouvelles fonctions ! 🚀
