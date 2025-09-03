@@ -1,6 +1,6 @@
 # Ma première app Flask 🌐
 
-Un programme Python/Flask qui découvre le développement web avec des routes dynamiques.
+Un programme Python/Flask qui permet découvrir le développement web avec des routes dynamiques.
 
 ## Description
 Ce programme permet à l'utilisateur de :
@@ -39,4 +39,5 @@ Projet créé dans le cadre de mon apprentissage du développement web avec Flas
 - Professionnel mais accessible
 
 ## Note :
+
 Des templates HTML sont prévus pour la suite ! 🚀
