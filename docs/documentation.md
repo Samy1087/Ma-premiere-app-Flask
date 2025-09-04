@@ -46,7 +46,7 @@ cd Ma-premiere-app-Flask
 
 2. Créer un environnement virtuel :
 ```bash
-python3.12 -m venv venv
+python3 -m venv venv
 ```
 
 3. Activer l’environnement :
@@ -142,6 +142,7 @@ Manipulation des entrées utilisateur
 Installation et gestion d’un environnement virtuel Python
 
 Documentation et structuration de projet
+
 
 
 
