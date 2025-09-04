@@ -37,23 +37,36 @@ Ma-premiere-app-Flask/
 3️⃣ Installation
 
 1. Cloner le dépôt :
-
+```
+bash
 git clone https://github.com/Samy1087/Ma-premiere-app-Flask.git
+```
+```
+bash
 cd Ma-premiere-app-Flask
+```
 
 2. Créer un environnement virtuel :
-
+```
+bash
 python3.12 -m venv venv
+```
 
 3. Activer l’environnement :
-
+```
+bash
 source venv/bin/activate   # Linux/macOS
+```
+```
+bash
 venv\Scripts\activate      # Windows
+```
 
 4. Installer les dépendances :
-
+```
+bash
 pip install -r requirements.txt
-
+```
 ---
 
 4️⃣ Utilisation détaillée
@@ -135,6 +148,7 @@ Manipulation des entrées utilisateur
 Installation et gestion d’un environnement virtuel Python
 
 Documentation et structuration de projet
+
 
 
 
