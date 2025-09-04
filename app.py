@@ -23,7 +23,7 @@ def heure():
     seconde = date.second
     return render_template("date_heure.html", heure=heure, minute=minute, seconde=seconde)
 
-@app.route("/menu")
+@app.route("/")
 def menu():
     """Menu principal"""
     return render_template("menu_principal.html")
