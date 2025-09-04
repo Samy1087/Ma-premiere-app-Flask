@@ -108,7 +108,7 @@ Routes principales :
 
 /prenom : route pour le message 
 
-/<nombre1>/<nombre2> : route pour la somme
+/nombre1/nombre2 : route pour la somme
 
 
 Chaque route est gérée par une fonction distincte pour plus de clarté.
@@ -142,6 +142,7 @@ Manipulation des entrées utilisateur
 Installation et gestion d’un environnement virtuel Python
 
 Documentation et structuration de projet
+
 
 
 
