@@ -7,7 +7,7 @@ app = Flask(__name__)
 def bonjour():
     """Cette route accueille l'utilisateur"""
     prenom = "Ndeye"
-    return render_template("index.html", prenom=prenom)
+    return render_template("menu.html", prenom=prenom)
 
 @app.route("/<int:a>/<int:b>")
 def calcul(a, b):
@@ -26,7 +26,7 @@ def heure():
 @app.route("/")
 def menu():
     """Menu principal"""
-    return render_template("menu_principal.html")
+    return render_template("index.html")
 
 # Point d'entrée du programme.
 
